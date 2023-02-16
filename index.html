@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#0D1E5C] flex justify-center items-center">
+
+    <div>
+        <h1 class="text-7xl text-slate-400 pl-12">Features</h1>
+
+        <section class="mt-12 grid gap-16 lg:grid-cols-2 lg:gap-x-20 lg:gap-y-12 text-slate-400 [&>.feature>.icon]:w-[50px] [&>.feature>.icon]:rounded-full [&>.feature>.icon]:flex [&>.feature>.icon]:items-center [&>.feature>.icon]:justify-center [&>.feature>.icon]:text-xl [&>.feature>.icon]:h-[50px] [&>.feature>.icon]:bg-[#2C3D7B]
+            [&>.feature]:flex [&>.feature]:items-enter [&>.feature]:flex-col lg:[&>.feature]:flex-row [&>.feature]:gap-4
+            [&>.feature>.detail]:w-[400px] md:[&>.feature>.detail]:w-[350px] [&>.feature>.detail>.name]:text-3xl [&>.feature>.detail>.desc]:text-slate-300 [&>.feature>.detail>.desc]:leading-[26px] [&>.feature>.detail>.desc]:opacity-80 [&>.feature>.detail>.name]:mb-2">
+            <div class="feature">
+                <iconify-icon class="icon" icon="ph:presentation-chart-bold"></iconify-icon>
+                <div class="detail">
+                    <h2 class="name">Boards</h2>
+                    <p class="desc">
+                        Projects are represented as boardss in the system. Along with displaying essential information about the project. They can be set to public or pirvate,
+                        depending on the user's preferences.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <iconify-icon class="icon" icon="fluent:tasks-app-20-filled"></iconify-icon>
+                <div class="detail">
+                    <h2 class="name">Tasks</h2>
+                    <p class="desc">
+                        Tasks and substasks are the smallest chunks of executable assignments. Tasks can be assinged to multiple users, given a priority and easily moved across different states in the development pipeline.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <iconify-icon class="icon" icon="mdi:people-group"></iconify-icon>
+                <div class="detail">
+                    <h2 class="name">Members</h2>
+                    <p class="desc">
+                        Users invited to work together with the common goal of deliverirng a succssful project. They can have serveral different roles as active members of the development, or simply followers of the board.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <iconify-icon class="icon" icon="material-symbols:timer-outline"></iconify-icon>
+                <div class="detail">
+                    <h2 class="name">Timer</h2>
+                    <p class="desc">
+                        The time tracking feature enables the users to easily measrue the time spent on a specific task. 
+                        One tracked and logged, the time can be seen and edited in a dedicated Time Records view for additional control.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <iconify-icon class="icon" icon="ic:sharp-star-outline"></iconify-icon>
+                <div class="detail">
+                    <h2 class="name">Follow</h2>
+                    <p class="desc">
+                        Ahead offers the possibility to follow the development of a project and benotified of tis activities. Users can follow entire boards, or they can choose to follow just specific tasks within a board.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <iconify-icon class="icon" icon="ic:baseline-access-time"></iconify-icon>
+                <div class="detail">
+                    <h2 class="name">Recently Accessed</h2>
+                    <p class="desc">
+                        The Boards that you are actively working on can be easily accessed with the Recently Accessed feature.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+</body>
+
+</html>
